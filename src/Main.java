@@ -23,6 +23,8 @@ public class Main {
 
         System.out.println("Hola!");
 
+        System.out.println("i adding afwpmb");
+
         app.start();
 
         db.close();
