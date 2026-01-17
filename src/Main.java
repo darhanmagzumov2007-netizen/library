@@ -12,7 +12,7 @@ public class Main {
     public static void main(String[] args) {
         // Here you specify which DB and UserRepository to use
         // And changing DB should not affect to whole code
-        IDB db = new PostgresDB("jdbc:postgresql://localhost:5432", "postgres", "asd222555", "somedb");
+        IDB db = new PostgresDB("jdbc:postgresql://localhost:5432", "postgres", "naimans2525", "somedb");
         IUserRepository repo = new UserRepository(db);
         IUserController controller = new UserController(repo);
 
