@@ -18,6 +18,8 @@ public class Main {
 
         MyApplication app = new MyApplication(controller);
 
+        System.out.println("Hello!");
+
         app.start();
 
         db.close();
